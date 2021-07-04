@@ -1,0 +1,86 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.intro {
+  text-align: center;
+  margin-top: 10vh;
+}
+
+.logo {
+  margin-top: -200px;
+  height: 300px;
+  overflow: hidden;
+  margin-left: -14vw;
+}
+.about {
+  font-family: sans-serif;
+  background-color: black;
+  color: white;
+  padding: 8vh 5vw;
+  min-height: 90vh;
+}
+.about h2 {
+  font-size: 3rem;
+  margin-bottom: 3vh;
+}
+.about div {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 0.9rem;
+}
+h3 {
+  margin-top: 1.5vh;
+}
+p {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+.form {
+  margin-top: 6vh;
+}
+.form input {
+  outline: none;
+  background-color: black;
+  color: white;
+  width: 250px;
+  padding: 5px 8px;
+  margin-top: 3px;
+  border: 1px white solid;
+}
+.form input::placeholder {
+  color: rgb(209, 206, 206);
+}
+.form button {
+  padding: 5px;
+  width: 55px;
+  font-weight: 700;
+}
+.form h5 {
+  margin-top: 15px;
+}
+
+@media screen and (min-width: 800px) {
+  .logo {
+    margin-top: 0;
+    width: 50vw;
+    margin-left: 0;
+    overflow: visible;
+  }
+  section {
+    display: flex;
+  }
+  .submit {
+    font-size: 1rem !important;
+  }
+}
+.submit {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  font-family: sans-serif;
+  font-size: 0.6rem;
+  /* width: 100%; */
+}
